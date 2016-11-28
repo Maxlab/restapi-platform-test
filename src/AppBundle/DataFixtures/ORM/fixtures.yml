@@ -1,0 +1,9 @@
+AppBundle\Entity\ApiGroup:
+    apigroup{1..5}:
+        groupname: <word()>
+
+AppBundle\Entity\ApiUser:
+    apiuser{1..20}:
+        username: <email()>
+        group: "@apigroup*"
+
