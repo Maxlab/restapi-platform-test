@@ -11,7 +11,7 @@ For fast run project
 
 - $ git clone https://github.com/Maxlab/restapi-platform-test.git rest-test
 - $ cd rest-test/ && composer update
-- Config your own connction to local pgsql in /app/config/parameters.yml
+- and config your own connction to local pgsql in /app/config/parameters.yml
 - $ php bin/console doctrine:database:create &&
     php bin/console doctrine:schema:update --force &&
     php bin/console fixtures:load
